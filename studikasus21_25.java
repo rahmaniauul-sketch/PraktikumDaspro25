@@ -23,7 +23,18 @@ public class studikasus21_25 {
                     }else {
                         System.out.println("tidak memperoleh dana penghargaan");
                     }
-             
+                }else { 
+                    if (jenisKegiatan.equalsIgnoreCase("programKreativitasMahasiswa")){
+                    System.out.println("status pendanaan");
+                    statusPendanaanPKM = sc.nextInt();
+                        if (statusPendanaanPKM==1) {
+                         System.out.println("lolos");
+                        }else{
+                        System.out.println("tidak lolos");}
+                    }else {
+                        System.out.println("dana penghargaan tidak diberikan");
+                    }
+                }
            
             }else{
                 kurangDokumen=4-jumlahDokumen;
@@ -32,8 +43,7 @@ public class studikasus21_25 {
              
             }
         }
-        }
-}
+    }
         
     
 
