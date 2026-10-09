@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Studikasus1_25 {
 public static void main(String[] args) {
     Scanner sc = new Scanner (System.in);
-    int hargaPerCup = 16000;
+    int hargaPerCup = 18000;
     int jumlahCup, uangBayar;
     int totalHarga, diskon, totalBayar;
     int kembalian, kurang;
@@ -13,8 +13,8 @@ public static void main(String[] args) {
     uangBayar = sc.nextInt();
     totalHarga = jumlahCup*hargaPerCup;
     System.out.println("total harga" +totalHarga);
-    if (totalHarga>=80000) {
-        diskon = totalHarga*6/100;
+    if (totalHarga>=100000) {
+        diskon = totalHarga*10/100;
     } else {
         diskon = 0;
     }
