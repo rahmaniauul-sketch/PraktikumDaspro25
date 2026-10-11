@@ -8,3 +8,13 @@ Ini adalah repository pertama saya
 Nama Rahmania Aulia Nur Aziza
 NIM 264107020158
 Kelas TI-IE
+
+p aulia =25
+Hasil Uji Studi Kasus 2 oleh Tsabitha Atha Aliya
+| No | Jenis                        | Dokumen    | Juara/Dana |                     Output                     | Sesuai? |
+|----|------------------------------|------------|------------|------------------------------------------------|---------|
+|1   |bakorma                       |3           |1           |tidak memperoleh dana karena syarat tidak sesuai|Ya       |
+|    |                              |            |            | atau dokumen tidak lengkap,kurang 1            |         |
+|2   |mandiri                       |4           |0           |dana penghargaan tidak diberikan                |Ya       |
+|3   |programkreativitasmahasiswa   |4           |1           |lolos                                           |Ya       |
+|4   |lainnya                       |4           |-           |dana penghargaan tidak diberikan                |Ya       |
