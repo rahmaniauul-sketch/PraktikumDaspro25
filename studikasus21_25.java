@@ -17,7 +17,7 @@ public class studikasus21_25 {
             peringkatJuara = sc.nextInt(); 
            
             if (jumlahDokumen==4) {
-                if (jenisKegiatan.equals("BELMAWA")||jenisKegiatan.equals("BAKORMA")||jenisKegiatan.equals("Mandiri")){
+                if (jenisKegiatan.equalsIgnoreCase("BELMAWA")||jenisKegiatan.equalsIgnoreCase("BAKORMA")||jenisKegiatan.equalsIgnoreCases("Mandiri")){
                     if (peringkatJuara>0 && peringkatJuara<=3) {
                         System.out.println("status : dokumen lengkap. Dana penghargaan diberikan karena jenis kegiatan dan status peringkat sesuai ");
                     }else {
